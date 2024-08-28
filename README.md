@@ -1,2 +1,3 @@
-# testhw1
-cphy 2024 testhw1
+# Running a test for GitHub Classroom.
+
+cphy24 test assignment 1
