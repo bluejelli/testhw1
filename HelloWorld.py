@@ -5,7 +5,7 @@ class HelloWorld:
     # Class Variables:
     # - message: str -> message to be displayed
 
-    # Change
+    #
     # Args: None.
     # Returns: None
     def __init__(self, message :str = "Hello World!"):
@@ -17,4 +17,4 @@ class HelloWorld:
     # Returns: str with message 
     def __repr__(self) -> str:
        
-        return "Hello World"
+        return self.message
