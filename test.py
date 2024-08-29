@@ -25,6 +25,5 @@ class HelloTest(unittest.TestCase):
     def test_displeased(self):
         self.assertEqual((self.displeased.__repr__()).upper(), str("**eye roll**").upper())
 
-
-if __name__ == "__main__":
-    unittest.main()
+#if __name__ == "__main__":
+#    unittest.main()
