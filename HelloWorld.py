@@ -17,4 +17,4 @@ class HelloWorld:
     # Returns: str with message 
     def __repr__(self) -> str:
        
-        return self.message
+        return "Hello World"
