@@ -23,7 +23,8 @@ class HelloTest(unittest.TestCase):
         self.assertEqual((self.passive_aggressive.__repr__()).upper(), str("Oh its you!").upper())
     
     def test_displeased(self):
-        self.assertEqual((self.displeased.__repr__()).upper(), str("**eye roll**").upper())
+        self.assertEqual((self.displeased.__repr__()).upper(), str("**eye rol**").upper())
 
-#if __name__ == "__main__":
-#    unittest.main()
+if __name__ == "__main__":
+    unittest.main()
+
