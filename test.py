@@ -9,7 +9,7 @@ class HelloTest(unittest.TestCase):
         self.passive_aggressive = HelloWorld("Oh its you!")
         self.displeased =   HelloWorld("**eye roll**")
 
-
+ 
     def test_default(self):
         self.assertEqual((self.happy_face.__repr__()).upper(), "HELLO WORLD!")
     

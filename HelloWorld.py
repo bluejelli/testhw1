@@ -5,7 +5,7 @@ class HelloWorld:
     # Class Variables:
     # - message: str -> message to be displayed
 
-
+    # Change
     # Args: None.
     # Returns: None
     def __init__(self, message :str = "Hello World!"):
